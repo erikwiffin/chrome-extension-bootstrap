@@ -1,0 +1,7 @@
+{
+  "name": "Project name",
+  "version": "0.1",
+  "dependencies": {
+    "zepto": "~1.1.2"
+  }
+}

@@ -1,0 +1,12 @@
+# Ignore the vagrant directory
+.vagrant
+vagrant_ansible_inventory_default
+
+# Vim swap files
+*.swp
+
+# Chrome user data directory
+user-data-dir
+
+# Vendor assets
+extension/assets/vendor
