@@ -13,3 +13,6 @@ extension/assets/vendor
 
 # Node modules
 node_modules
+
+# Extension private key
+extension.pem

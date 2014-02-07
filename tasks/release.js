@@ -45,6 +45,8 @@ module.exports = function(grunt) {
         run('git add ' + _.values(files).join(' '));
         run('git commit -m "release ' + newVersion + '"');
         run('git tag ' + newVersion);
+        run('git push origin master');
+        run('git push origin --tags');
 
         grunt.log.ok('Updated git version.');
     });
