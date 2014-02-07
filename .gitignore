@@ -10,3 +10,6 @@ user-data-dir
 
 # Vendor assets
 extension/assets/vendor
+
+# Node modules
+node_modules
